@@ -5,4 +5,4 @@ A PoC for an example financial data stream service. It's based on public cryptoc
 This project is the upstream part of the tick data stream.
 
 ### Overview
-* Using [Binance 
+* Using [Binance Public API](https://binan
