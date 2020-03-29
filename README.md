@@ -5,4 +5,5 @@ A PoC for an example financial data stream service. It's based on public cryptoc
 This project is the upstream part of the tick data stream.
 
 ### Overview
-* Using [Binance Public API](https://binance-docs.github.io/apidocs) (websocket) to listen to ticker stream of configurable sym
+* Using [Binance Public API](https://binance-docs.github.io/apidocs) (websocket) to listen to ticker stream of configurable symbols.
+* [FeedSupplier](https:/
