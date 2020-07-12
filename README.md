@@ -12,4 +12,4 @@ This project is the upstream part of the tick data stream.
 * A unit test demonstrates also client connection which can be found in [RegistrySpec](https://github.com/yavuztas/cap-source/blob/master/src/test/groovy/dev/yavuztas/cap/capsource/registry/RegistrySpec.groovy) 
 
 ### How To Run
-For possible configuratio
+For possible configurations, [application.yml](https://
