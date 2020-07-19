@@ -16,4 +16,6 @@ For possible configurations, [application.yml](https://github.com/yavuztas/cap-s
 ```yaml
 app:
   vertx:
-    event-loop-pool-si
+    event-loop-pool-size: 8
+  registry:
+    host: 
