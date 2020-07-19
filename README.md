@@ -20,4 +20,6 @@ app:
   registry:
     host: localhost
     port: 7000
-    tcp_ser
+    tcp_server_thread_pool: 4
+
+source:
