@@ -18,4 +18,6 @@ app:
   vertx:
     event-loop-pool-size: 8
   registry:
-    host: 
+    host: localhost
+    port: 7000
+    tcp_ser
