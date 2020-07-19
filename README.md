@@ -15,4 +15,5 @@ This project is the upstream part of the tick data stream.
 For possible configurations, [application.yml](https://github.com/yavuztas/cap-source/blob/master/src/main/resources/application.yml)
 ```yaml
 app:
-  ve
+  vertx:
+    event-loop-pool-si
