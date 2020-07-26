@@ -27,4 +27,6 @@ source:
     buffer-size: 1024
     symbols: btcusdt,ethusdt
 ```
-Via Gr
+Via Gradle:
+```shell
+# profile lo
