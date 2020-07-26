@@ -23,3 +23,6 @@ app:
     tcp_server_thread_pool: 4
 
 source:
+  binance:
+    buffer-size: 1024
+    sym
