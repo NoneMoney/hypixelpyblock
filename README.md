@@ -25,4 +25,6 @@ app:
 source:
   binance:
     buffer-size: 1024
-    sym
+    symbols: btcusdt,ethusdt
+```
+Via Gr
