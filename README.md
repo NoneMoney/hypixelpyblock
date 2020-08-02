@@ -29,4 +29,4 @@ source:
 ```
 Via Gradle:
 ```shell
-# profile lo
+# profile local or dev enables cons
