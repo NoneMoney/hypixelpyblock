@@ -29,4 +29,5 @@ source:
 ```
 Via Gradle:
 ```shell
-# profile local or dev enables cons
+# profile local or dev enables console logging
+./gradlew bootR
