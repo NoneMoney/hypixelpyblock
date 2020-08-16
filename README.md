@@ -30,4 +30,7 @@ source:
 Via Gradle:
 ```shell
 # profile local or dev enables console logging
-./gradlew bootRun --args='--spring.profil
+./gradlew bootRun --args='--spring.profiles.active=local'
+```
+
+### 3
