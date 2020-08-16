@@ -34,3 +34,4 @@ Via Gradle:
 ```
 
 ### 3rd Party Projects/Libraries
+Many thanks to these aweso
