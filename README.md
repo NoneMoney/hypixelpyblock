@@ -33,4 +33,4 @@ Via Gradle:
 ./gradlew bootRun --args='--spring.profiles.active=local'
 ```
 
-### 3
+### 3rd Party Projects/Libraries
