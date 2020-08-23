@@ -37,4 +37,5 @@ Via Gradle:
 Many thanks to these awesome projects:
 
 * [Eclipse Vert.x](https://vertx.io)
-* [Kot
+* [Kotlin](https://kotlinlang.org)
+* [G
