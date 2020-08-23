@@ -38,4 +38,4 @@ Many thanks to these awesome projects:
 
 * [Eclipse Vert.x](https://vertx.io)
 * [Kotlin](https://kotlinlang.org)
-* [G
+* [Groovy](https://groovy-lang.org)
