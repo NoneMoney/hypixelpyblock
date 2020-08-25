@@ -39,4 +39,6 @@ Many thanks to these awesome projects:
 * [Eclipse Vert.x](https://vertx.io)
 * [Kotlin](https://kotlinlang.org)
 * [Groovy](https://groovy-lang.org)
-* [Spock Framework](http
+* [Spock Framework](https://spockframework.org)
+
+Otherwis
