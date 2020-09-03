@@ -41,4 +41,4 @@ Many thanks to these awesome projects:
 * [Groovy](https://groovy-lang.org)
 * [Spock Framework](https://spockframework.org)
 
-Otherwise, it wouldn't be possi
+Otherwise, it wouldn't be possible to make this project, at
