@@ -3,4 +3,4 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
   id("org.springframework.boot") version "2.7.5"
-  id("io.
+  id("io.spring.dependency-management") vers
