@@ -9,4 +9,5 @@ plugins {
   groovy // for spock
 }
 
-group = "dev.yav
+group = "dev.yavuztas.cap"
+version = "0.0.1-SN
