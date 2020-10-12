@@ -10,4 +10,5 @@ plugins {
 }
 
 group = "dev.yavuztas.cap"
-version = "0.0.1-SN
+version = "0.0.1-SNAPSHOT"
+java.sourceCompatibility = JavaV
