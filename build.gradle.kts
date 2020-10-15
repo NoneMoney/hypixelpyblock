@@ -15,4 +15,4 @@ java.sourceCompatibility = JavaVersion.VERSION_17
 
 configurations {
   compileOnly {
-    extendsFr
+    extendsFrom(configurations.annotationProce
