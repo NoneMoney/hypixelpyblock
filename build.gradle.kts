@@ -15,4 +15,8 @@ java.sourceCompatibility = JavaVersion.VERSION_17
 
 configurations {
   compileOnly {
-    extendsFrom(configurations.annotationProce
+    extendsFrom(configurations.annotationProcessor.get())
+  }
+}
+
+repositorie
