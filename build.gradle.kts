@@ -19,4 +19,8 @@ configurations {
   }
 }
 
-repositorie
+repositories {
+  mavenCentral()
+}
+
+dependenci
