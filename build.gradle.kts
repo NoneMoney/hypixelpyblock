@@ -23,4 +23,5 @@ repositories {
   mavenCentral()
 }
 
-dependenci
+dependencies {
+  implementation("org.springf
