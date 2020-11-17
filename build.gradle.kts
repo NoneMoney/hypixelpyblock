@@ -24,4 +24,4 @@ repositories {
 }
 
 dependencies {
-  implementation("org.springf
+  implementation("org.springframework.boot:spring-boot-starter-web"
