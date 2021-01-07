@@ -30,3 +30,5 @@ dependencies {
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
   implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
   implementation("io.github.binance:binance-connector-java:1.10.0")
+  // vertx platform
+  implemen
