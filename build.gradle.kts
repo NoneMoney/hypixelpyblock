@@ -31,4 +31,5 @@ dependencies {
   implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
   implementation("io.github.binance:binance-connector-java:1.10.0")
   // vertx platform
-  implementation(platform("io.vertx:vertx
+  implementation(platform("io.vertx:vertx-stack-depchain:4.3.4"))
+  implemen
