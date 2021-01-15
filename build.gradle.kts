@@ -34,4 +34,4 @@ dependencies {
   implementation(platform("io.vertx:vertx-stack-depchain:4.3.4"))
   implementation("io.vertx:vertx-tcp-eventbus-bridge:4.3.4")
 
-  run
+  runtimeOnly("io.micrometer:micr
