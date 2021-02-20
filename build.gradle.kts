@@ -35,4 +35,4 @@ dependencies {
   implementation("io.vertx:vertx-tcp-eventbus-bridge:4.3.4")
 
   runtimeOnly("io.micrometer:micrometer-registry-prometheus")
-  
+  annotationProcessor("org.springframe
