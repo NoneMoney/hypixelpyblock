@@ -35,4 +35,5 @@ dependencies {
   implementation("io.vertx:vertx-tcp-eventbus-bridge:4.3.4")
 
   runtimeOnly("io.micrometer:micrometer-registry-prometheus")
-  annotationProcessor("org.springframework.boot:spring-boot-config
+  annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+  testIm
