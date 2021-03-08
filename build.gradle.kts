@@ -36,4 +36,4 @@ dependencies {
 
   runtimeOnly("io.micrometer:micrometer-registry-prometheus")
   annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
-  testImplementation("org.springframework.b
+  testImplementation("org.springframework.boot:spring-boot-starter-test"
