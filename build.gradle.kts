@@ -37,4 +37,7 @@ dependencies {
   runtimeOnly("io.micrometer:micrometer-registry-prometheus")
   annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
   testImplementation("org.springframework.boot:spring-boot-starter-test")
-  testImplementation("org.spockframework:spock-core
+  testImplementation("org.spockframework:spock-core:2.3-groovy-3.0")
+}
+
+tasks
