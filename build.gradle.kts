@@ -40,4 +40,5 @@ dependencies {
   testImplementation("org.spockframework:spock-core:2.3-groovy-3.0")
 }
 
-tasks
+tasks.withType<KotlinCompile> {
+ 
