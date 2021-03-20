@@ -41,4 +41,5 @@ dependencies {
 }
 
 tasks.withType<KotlinCompile> {
- 
+  kotlinOptions {
+    fre
