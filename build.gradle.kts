@@ -42,4 +42,4 @@ dependencies {
 
 tasks.withType<KotlinCompile> {
   kotlinOptions {
-    fre
+    freeCompilerArgs = listOf("-Xjsr305
