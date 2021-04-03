@@ -47,4 +47,5 @@ tasks.withType<KotlinCompile> {
   }
 }
 
-tas
+tasks.withType<Test> {
+  useJ
