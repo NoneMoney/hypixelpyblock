@@ -48,4 +48,6 @@ tasks.withType<KotlinCompile> {
 }
 
 tasks.withType<Test> {
-  useJ
+  useJUnitPlatform()
+  testLogging {
+    e
