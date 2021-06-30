@@ -24,3 +24,10 @@ class AppConfiguration(
         .setEventLoopPoolSize(vertxProps.eventLoopPoolSize)
     )
   }
+
+  @Bean
+  fun registry(vertx: Vertx, suppliers: List<FeedSupplier>): Registry {
+    return Registry(registryProps, vertx, suppliers)
+  }
+
+}
