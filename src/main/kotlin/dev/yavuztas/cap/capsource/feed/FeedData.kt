@@ -4,4 +4,6 @@ import io.vertx.core.buffer.Buffer
 
 interface FeedData {
 
-  fun asM
+  fun asMutable(): Buffer
+
+  fun asDuplica
