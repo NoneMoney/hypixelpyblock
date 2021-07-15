@@ -6,4 +6,5 @@ interface FeedData {
 
   fun asMutable(): Buffer
 
-  fun asDuplica
+  fun asDuplicate(): Buffer {
+    return Buffe
