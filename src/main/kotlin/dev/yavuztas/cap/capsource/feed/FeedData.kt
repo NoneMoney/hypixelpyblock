@@ -7,4 +7,7 @@ interface FeedData {
   fun asMutable(): Buffer
 
   fun asDuplicate(): Buffer {
-    return Buffer.buffer(asMutable()
+    return Buffer.buffer(asMutable().byteBuf)
+  }
+
+  fun asReadOnl
