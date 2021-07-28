@@ -10,4 +10,5 @@ interface FeedData {
     return Buffer.buffer(asMutable().byteBuf)
   }
 
-  fun asReadOnl
+  fun asReadOnly(): Buffer {
+    return Buffer.
