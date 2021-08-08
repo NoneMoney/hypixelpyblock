@@ -7,4 +7,4 @@ import java.util.concurrent.atomic.AtomicLong
 
 class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
 
-  priv
+  private var readIndex = AtomicLong(this.
