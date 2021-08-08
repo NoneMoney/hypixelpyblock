@@ -5,4 +5,6 @@ import io.vertx.core.buffer.Buffer
 import io.vertx.core.streams.ReadStream
 import java.util.concurrent.atomic.AtomicLong
 
-class FeedDataStream (private val supplier: FeedSup
+class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
+
+  priv
