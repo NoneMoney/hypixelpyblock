@@ -7,4 +7,5 @@ import java.util.concurrent.atomic.AtomicLong
 
 class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
 
-  private var readIndex = AtomicLong(this.supplier.writeIndex() -
+  private var readIndex = AtomicLong(this.supplier.writeIndex() - 1)
+  private var demand = A
