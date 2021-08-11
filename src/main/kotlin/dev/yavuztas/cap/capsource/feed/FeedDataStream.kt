@@ -10,4 +10,4 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   private var readIndex = AtomicLong(this.supplier.writeIndex() - 1)
   private var demand = AtomicLong(Long.MAX_VALUE)
 
-  p
+  private var exceptionHandler
