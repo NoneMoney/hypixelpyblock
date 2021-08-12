@@ -11,4 +11,6 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   private var demand = AtomicLong(Long.MAX_VALUE)
 
   private var exceptionHandler: Handler<Throwable>? = null
-  private var eventHandler: Handler<
+  private var eventHandler: Handler<Buffer>? = null
+
+  override fun ex
