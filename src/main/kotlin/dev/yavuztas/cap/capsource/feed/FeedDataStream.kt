@@ -18,4 +18,6 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
     return this
   }
 
-  override fun pause(): ReadStre
+  override fun pause(): ReadStream<Buffer> {
+    demand.set(0L)
+ 
