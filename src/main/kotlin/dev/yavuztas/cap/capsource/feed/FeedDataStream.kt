@@ -14,4 +14,8 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   private var eventHandler: Handler<Buffer>? = null
 
   override fun exceptionHandler(handler: Handler<Throwable>?): ReadStream<Buffer> {
-    this.exceptionHandler = h
+    this.exceptionHandler = handler
+    return this
+  }
+
+  ove
