@@ -24,4 +24,7 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   }
 
   override fun resume(): ReadStream<Buffer> {
-    return fetch(Long.MAX_
+    return fetch(Long.MAX_VALUE)
+  }
+
+  override fun fetch(amou
