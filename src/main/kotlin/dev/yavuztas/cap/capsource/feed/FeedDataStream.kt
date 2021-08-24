@@ -28,3 +28,4 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   }
 
   override fun fetch(amount: Long): ReadStream<Buffer> {
+    if (demand.addAndGet(amount
