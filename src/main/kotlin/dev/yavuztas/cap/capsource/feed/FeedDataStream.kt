@@ -32,4 +32,7 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
       demand.set(Long.MAX_VALUE)
     }
     doFetch()
-    retur
+    return this
+  }
+
+  override fun endHandle
