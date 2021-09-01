@@ -37,4 +37,7 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
 
   override fun endHandler(endHandler: Handler<Void>?): ReadStream<Buffer> {
     // no-op, feed data stream is infinite
-  
+    return this
+  }
+
+  override 
