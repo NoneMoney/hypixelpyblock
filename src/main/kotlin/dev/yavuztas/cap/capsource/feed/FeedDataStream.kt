@@ -40,4 +40,5 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
     return this
   }
 
-  override fun handler(handler: Handler<Buffer>?)
+  override fun handler(handler: Handler<Buffer>?): ReadStream<Buffer> {
+    this.e
