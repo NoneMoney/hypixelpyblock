@@ -41,4 +41,5 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   }
 
   override fun handler(handler: Handler<Buffer>?): ReadStream<Buffer> {
-    this.e
+    this.eventHandler = handler
+    retu
