@@ -46,4 +46,7 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   }
 
   fun readIndex(): Long {
-    return this
+    return this.readIndex.get()
+  }
+
+  fun suppl
