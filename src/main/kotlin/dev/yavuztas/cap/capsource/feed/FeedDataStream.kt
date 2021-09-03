@@ -50,4 +50,7 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   }
 
   fun supplier(): FeedSupplier {
-    return t
+    return this.supplier
+  }
+
+  private fun 
