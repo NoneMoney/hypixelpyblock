@@ -53,4 +53,5 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
     return this.supplier
   }
 
-  private fun 
+  private fun doFetch() {
+    if (demand.get(
