@@ -54,4 +54,6 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   }
 
   private fun doFetch() {
-    if (demand.get(
+    if (demand.get() > 0L) {
+      synchronized(this) {
+    
