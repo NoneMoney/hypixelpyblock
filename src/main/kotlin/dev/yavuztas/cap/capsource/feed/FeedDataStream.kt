@@ -56,4 +56,5 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
   private fun doFetch() {
     if (demand.get() > 0L) {
       synchronized(this) {
-        val writeIndex = this.supplier.forEach(readIndex.get(), dem
+        val writeIndex = this.supplier.forEach(readIndex.get(), demand.get()) {
+          this
