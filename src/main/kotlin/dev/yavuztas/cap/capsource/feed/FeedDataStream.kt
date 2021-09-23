@@ -59,4 +59,5 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
         val writeIndex = this.supplier.forEach(readIndex.get(), demand.get()) {
           this.eventHandler?.handle(it.asReadOnly())
         }
-        readI
+        readIndex.set(writeIndex)
+      }
