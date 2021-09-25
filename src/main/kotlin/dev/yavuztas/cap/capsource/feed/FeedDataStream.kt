@@ -61,4 +61,5 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
         }
         readIndex.set(writeIndex)
       }
-      if (demand.get() != Long
+      if (demand.get() != Long.MAX_VALUE) {
+        demand.
