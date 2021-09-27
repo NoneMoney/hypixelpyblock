@@ -66,3 +66,5 @@ class FeedDataStream (private val supplier: FeedSupplier) : ReadStream<Buffer> {
       }
     }
   }
+
+}
