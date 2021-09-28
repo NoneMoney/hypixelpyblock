@@ -1,3 +1,5 @@
 package dev.yavuztas.cap.capsource.feed
 
-import
+import java.util.function.Consumer
+
+i
