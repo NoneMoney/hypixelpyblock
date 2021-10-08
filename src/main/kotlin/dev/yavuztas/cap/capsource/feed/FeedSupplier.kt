@@ -4,4 +4,6 @@ import java.util.function.Consumer
 
 interface FeedSupplier {
 
-  fun addConsumer(consum
+  fun addConsumer(consumer: FeedConsumer)
+
+  fun wr
