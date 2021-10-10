@@ -11,4 +11,4 @@ interface FeedSupplier {
   fun get(readIndex: Long): FeedData?
 
   /**
-   * @return read
+   * @return read index + amount at the time of cons
