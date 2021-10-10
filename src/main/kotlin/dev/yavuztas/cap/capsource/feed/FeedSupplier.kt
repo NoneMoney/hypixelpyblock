@@ -8,4 +8,7 @@ interface FeedSupplier {
 
   fun writeIndex(): Long
 
-  fun get(readIndex: Long): Fe
+  fun get(readIndex: Long): FeedData?
+
+  /**
+   * @return read
