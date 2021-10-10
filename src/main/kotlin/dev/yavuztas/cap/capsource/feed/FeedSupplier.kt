@@ -6,4 +6,6 @@ interface FeedSupplier {
 
   fun addConsumer(consumer: FeedConsumer)
 
-  fun wr
+  fun writeIndex(): Long
+
+  
