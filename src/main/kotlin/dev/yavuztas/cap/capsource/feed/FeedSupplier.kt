@@ -8,4 +8,4 @@ interface FeedSupplier {
 
   fun writeIndex(): Long
 
-  
+  fun get(readIndex: Long): Fe
