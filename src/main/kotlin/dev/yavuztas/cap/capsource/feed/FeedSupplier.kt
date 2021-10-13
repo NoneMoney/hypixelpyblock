@@ -13,4 +13,7 @@ interface FeedSupplier {
   /**
    * @return read index + amount at the time of consuming
    */
-  fun forEach(readIndex: Long, amount: Long, action: Consumer<Feed
+  fun forEach(readIndex: Long, amount: Long, action: Consumer<FeedData>): Long
+
+  /**
+   * @re
