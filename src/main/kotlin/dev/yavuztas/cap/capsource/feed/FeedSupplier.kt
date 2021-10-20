@@ -18,4 +18,4 @@ interface FeedSupplier {
   /**
    * @return write index at the time of consuming
    */
-  fun fo
+  fun forEachRemaining(readIndex
