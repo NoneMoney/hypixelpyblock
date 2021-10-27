@@ -28,3 +28,6 @@ class RawFeedData(private val data: ByteArray): FeedData {
   override fun toString(): String {
     return String(data, Charsets.US_ASCII)
   }
+
+}
+
