@@ -5,4 +5,5 @@ import com.binance.connector.client.impl.WebsocketClientImpl
 import com.binance.connector.client.utils.WebSocketCallback
 import dev.yavuztas.cap.capsource.feed.FeedConsumer
 import dev.yavuztas.cap.capsource.feed.FeedData
-import dev.yavuztas.cap.c
+import dev.yavuztas.cap.capsource.feed.RawFeedData
+import 
