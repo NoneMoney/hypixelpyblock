@@ -10,4 +10,5 @@ import dev.yavuztas.cap.capsource.feed.FeedSupplier
 import dev.yavuztas.cap.capsource.util.RingBuffer
 import mu.KotlinLogging
 import org.springframework.beans.factory.annotation.Value
-import org.springframework.stereot
+import org.springframework.stereotype.Component
+import jav
