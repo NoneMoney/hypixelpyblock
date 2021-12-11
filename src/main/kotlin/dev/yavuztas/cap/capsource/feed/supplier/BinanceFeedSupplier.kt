@@ -18,4 +18,6 @@ import javax.annotation.PostConstruct
 import javax.annotation.PreDestroy
 
 /**
- * @param bufferSize: Must be a power of 2, the modulo calculation depe
+ * @param bufferSize: Must be a power of 2, the modulo calculation depends on that.
+ */
+@Component
