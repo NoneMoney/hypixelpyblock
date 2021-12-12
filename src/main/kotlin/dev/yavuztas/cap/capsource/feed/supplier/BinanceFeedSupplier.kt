@@ -22,4 +22,5 @@ import javax.annotation.PreDestroy
  */
 @Component
 class BinanceFeedSupplier(
-  @Value("\${source.binance.symbols}") private val s
+  @Value("\${source.binance.symbols}") private val symbols: Array<String>,
+  @Value
