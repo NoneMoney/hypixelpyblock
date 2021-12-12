@@ -21,4 +21,5 @@ import javax.annotation.PreDestroy
  * @param bufferSize: Must be a power of 2, the modulo calculation depends on that.
  */
 @Component
-class BinanceFeedSuppl
+class BinanceFeedSupplier(
+  @Value("\${source.binance
