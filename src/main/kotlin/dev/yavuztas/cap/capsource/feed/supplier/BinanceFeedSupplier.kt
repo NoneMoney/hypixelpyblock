@@ -23,4 +23,5 @@ import javax.annotation.PreDestroy
 @Component
 class BinanceFeedSupplier(
   @Value("\${source.binance.symbols}") private val symbols: Array<String>,
-  @Value("\${source.binance.buffer-size}") private val buff
+  @Value("\${source.binance.buffer-size}") private val bufferSize: Int = 1024
+) :
