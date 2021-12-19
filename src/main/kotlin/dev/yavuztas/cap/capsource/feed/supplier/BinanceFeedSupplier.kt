@@ -24,4 +24,6 @@ import javax.annotation.PreDestroy
 class BinanceFeedSupplier(
   @Value("\${source.binance.symbols}") private val symbols: Array<String>,
   @Value("\${source.binance.buffer-size}") private val bufferSize: Int = 1024
-) :
+) : FeedSupplier {
+
+  private val log = Kotl
