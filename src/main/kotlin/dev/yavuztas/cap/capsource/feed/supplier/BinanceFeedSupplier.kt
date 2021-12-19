@@ -26,4 +26,5 @@ class BinanceFeedSupplier(
   @Value("\${source.binance.buffer-size}") private val bufferSize: Int = 1024
 ) : FeedSupplier {
 
-  private val log = Kotl
+  private val log = KotlinLogging.logger {}
+  priv
