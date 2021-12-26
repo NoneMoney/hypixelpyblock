@@ -27,4 +27,4 @@ class BinanceFeedSupplier(
 ) : FeedSupplier {
 
   private val log = KotlinLogging.logger {}
-  priv
+  private val noopCallback = WebSocketC
