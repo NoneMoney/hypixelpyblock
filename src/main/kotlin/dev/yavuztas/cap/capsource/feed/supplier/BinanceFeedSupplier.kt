@@ -29,4 +29,4 @@ class BinanceFeedSupplier(
   private val log = KotlinLogging.logger {}
   private val noopCallback = WebSocketCallback { _: String? -> }
   private val client: WebsocketClient = WebsocketClientImpl()
-  private val consumers: Mu
+  private val consumers: MutableList<FeedConsumer> = Ar
