@@ -37,4 +37,5 @@ class BinanceFeedSupplier(
   fun init() {
     // register all symbols given
     val stream = Arrays.stream(symbols)
-      .map 
+      .map { s -> "$s@miniTicker" }
+   
