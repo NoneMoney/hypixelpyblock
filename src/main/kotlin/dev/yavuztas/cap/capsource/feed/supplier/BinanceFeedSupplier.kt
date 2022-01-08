@@ -35,4 +35,5 @@ class BinanceFeedSupplier(
 
   @PostConstruct
   fun init() {
-    // registe
+    // register all symbols given
+    val str
