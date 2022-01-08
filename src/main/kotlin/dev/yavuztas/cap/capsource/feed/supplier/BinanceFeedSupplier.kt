@@ -33,4 +33,6 @@ class BinanceFeedSupplier(
 
   private val buffer: RingBuffer<FeedData> = RingBuffer(bufferSize)
 
-  @PostConst
+  @PostConstruct
+  fun init() {
+    // registe
