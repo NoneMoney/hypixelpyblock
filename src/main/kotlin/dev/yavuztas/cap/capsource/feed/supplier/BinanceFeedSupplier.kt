@@ -31,4 +31,6 @@ class BinanceFeedSupplier(
   private val client: WebsocketClient = WebsocketClientImpl()
   private val consumers: MutableList<FeedConsumer> = ArrayList()
 
-  private val buffer: RingBuffer<FeedData> = RingBuffer
+  private val buffer: RingBuffer<FeedData> = RingBuffer(bufferSize)
+
+  @PostConst
