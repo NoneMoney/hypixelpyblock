@@ -36,4 +36,5 @@ class BinanceFeedSupplier(
   @PostConstruct
   fun init() {
     // register all symbols given
-    val str
+    val stream = Arrays.stream(symbols)
+      .map 
