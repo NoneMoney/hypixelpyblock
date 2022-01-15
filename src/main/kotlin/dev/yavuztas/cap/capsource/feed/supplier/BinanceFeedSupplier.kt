@@ -41,3 +41,4 @@ class BinanceFeedSupplier(
       .collect(Collectors.toCollection { ArrayList() })
     client.combineStreams(stream,
       noopCallback, ::onMessage,
+      noopCallback, ::onFailure
