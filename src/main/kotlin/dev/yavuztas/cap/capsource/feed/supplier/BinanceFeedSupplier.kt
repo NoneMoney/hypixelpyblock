@@ -38,4 +38,5 @@ class BinanceFeedSupplier(
     // register all symbols given
     val stream = Arrays.stream(symbols)
       .map { s -> "$s@miniTicker" }
-      .collect(Collectors.toCollection { ArrayList() 
+      .collect(Collectors.toCollection { ArrayList() })
+    client.combineStreams(str
