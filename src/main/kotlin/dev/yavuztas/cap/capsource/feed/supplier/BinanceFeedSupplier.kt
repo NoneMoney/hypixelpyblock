@@ -42,3 +42,7 @@ class BinanceFeedSupplier(
     client.combineStreams(stream,
       noopCallback, ::onMessage,
       noopCallback, ::onFailure
+    )
+  }
+
+  private fun onMessa
