@@ -45,4 +45,5 @@ class BinanceFeedSupplier(
     )
   }
 
-  private fun onMessa
+  private fun onMessage(message: String) {
+    this.
