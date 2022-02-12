@@ -47,4 +47,4 @@ class BinanceFeedSupplier(
 
   private fun onMessage(message: String) {
     this.buffer.add(RawFeedData(message))
- 
+    log.debug { "supplied: $
