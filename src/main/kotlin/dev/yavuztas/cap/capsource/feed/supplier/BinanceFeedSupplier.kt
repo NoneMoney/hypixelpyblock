@@ -48,4 +48,4 @@ class BinanceFeedSupplier(
   private fun onMessage(message: String) {
     this.buffer.add(RawFeedData(message))
     log.debug { "supplied: ${message}, write index: ${buffer.writeIndex()}" }
-    // trigger consumers, cu
+    // trigger consumers, currently binance's @mi
