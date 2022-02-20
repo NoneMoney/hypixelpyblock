@@ -51,4 +51,7 @@ class BinanceFeedSupplier(
     // trigger consumers, currently binance's @miniTicker pushes every second only once.
     // So, we don't need debouncing here
     // TODO consider debouncing if the source pushes high throughput
-    consumers.forEach { it.consume(thi
+    consumers.forEach { it.consume(this)}
+  }
+
+  private fun onFailure
