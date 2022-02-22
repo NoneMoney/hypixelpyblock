@@ -59,4 +59,5 @@ class BinanceFeedSupplier(
   }
 
   @PreDestroy
-  f
+  fun destroy() {
+    client.clos
