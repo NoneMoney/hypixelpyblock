@@ -55,4 +55,8 @@ class BinanceFeedSupplier(
   }
 
   private fun onFailure(e: String) {
-    log.wa
+    log.warn { e }
+  }
+
+  @PreDestroy
+  f
