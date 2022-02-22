@@ -54,4 +54,5 @@ class BinanceFeedSupplier(
     consumers.forEach { it.consume(this)}
   }
 
-  private fun onFailure
+  private fun onFailure(e: String) {
+    log.wa
