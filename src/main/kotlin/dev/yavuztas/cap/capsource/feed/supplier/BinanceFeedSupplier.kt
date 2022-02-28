@@ -63,4 +63,4 @@ class BinanceFeedSupplier(
     client.closeAllConnections()
   }
 
-  over
+  override fun addConsumer(consumer:
