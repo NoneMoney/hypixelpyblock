@@ -64,4 +64,7 @@ class BinanceFeedSupplier(
   }
 
   override fun addConsumer(consumer: FeedConsumer) {
-    consum
+    consumers.add(consumer)
+  }
+
+  override fun 
