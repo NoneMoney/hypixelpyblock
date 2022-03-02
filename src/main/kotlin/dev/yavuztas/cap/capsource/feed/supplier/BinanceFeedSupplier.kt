@@ -67,4 +67,5 @@ class BinanceFeedSupplier(
     consumers.add(consumer)
   }
 
-  override fun 
+  override fun writeIndex(): Long {
+    r
