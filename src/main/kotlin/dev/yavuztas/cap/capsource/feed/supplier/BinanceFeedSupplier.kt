@@ -68,4 +68,6 @@ class BinanceFeedSupplier(
   }
 
   override fun writeIndex(): Long {
-    r
+    return this.buffer.writeIndex()
+  }
+
