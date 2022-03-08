@@ -72,4 +72,7 @@ class BinanceFeedSupplier(
   }
 
   override fun get(readIndex: Long): FeedData? {
-    return this.buff
+    return this.buffer.get(readIndex)
+  }
+
+  o
