@@ -80,4 +80,7 @@ class BinanceFeedSupplier(
   }
 
   override fun forEachRemaining(readIndex: Long, action: Consumer<FeedData>): Long {
-    return this.buffer.forEachRemainin
+    return this.buffer.forEachRemaining(readIndex, action)
+  }
+
+}
