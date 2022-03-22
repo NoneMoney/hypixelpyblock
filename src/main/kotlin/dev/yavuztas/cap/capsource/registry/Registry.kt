@@ -1,1 +1,3 @@
-package dev.yavuztas.cap.capsou
+package dev.yavuztas.cap.capsource.registry
+
+import dev.yav
