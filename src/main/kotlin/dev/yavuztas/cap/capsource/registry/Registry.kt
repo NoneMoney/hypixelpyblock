@@ -1,3 +1,3 @@
 package dev.yavuztas.cap.capsource.registry
 
-import dev.yav
+import dev.yavuztas.cap.capsource.config.p
