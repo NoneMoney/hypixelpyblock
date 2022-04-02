@@ -5,4 +5,5 @@ import dev.yavuztas.cap.capsource.feed.FeedConsumer
 import dev.yavuztas.cap.capsource.feed.FeedSupplier
 import io.vertx.core.AbstractVerticle
 import io.vertx.core.DeploymentOptions
-import i
+import io.vertx.core.Future
+import io
