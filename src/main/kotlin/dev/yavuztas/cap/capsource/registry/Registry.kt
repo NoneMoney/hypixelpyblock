@@ -8,4 +8,4 @@ import io.vertx.core.DeploymentOptions
 import io.vertx.core.Future
 import io.vertx.core.Vertx
 import io.vertx.core.net.NetServer
-import io
+import io.vertx.core.net.NetServerOpt
