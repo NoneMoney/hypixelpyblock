@@ -18,4 +18,5 @@ import javax.annotation.PostConstruct
 import javax.annotation.PreDestroy
 
 /**
- * Multiple Registries must sha
+ * Multiple Registries must share the same Vertx instance.
+ * 
