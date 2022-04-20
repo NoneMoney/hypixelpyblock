@@ -21,4 +21,5 @@ import javax.annotation.PreDestroy
  * Multiple Registries must share the same Vertx instance.
  * Thus, we can distribute clients if needed.
  */
-class Regi
+class Registry(
+  private val props: Re
