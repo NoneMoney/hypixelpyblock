@@ -22,4 +22,5 @@ import javax.annotation.PreDestroy
  * Thus, we can distribute clients if needed.
  */
 class Registry(
-  private val props: Re
+  private val props: RegistryProperties,
+  private 
