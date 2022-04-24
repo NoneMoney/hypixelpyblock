@@ -23,4 +23,5 @@ import javax.annotation.PreDestroy
  */
 class Registry(
   private val props: RegistryProperties,
-  private 
+  private val vertx: Vertx,
+  private va
