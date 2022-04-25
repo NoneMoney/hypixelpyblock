@@ -24,4 +24,5 @@ import javax.annotation.PreDestroy
 class Registry(
   private val props: RegistryProperties,
   private val vertx: Vertx,
-  private val suppliers: List<FeedSupplier> = Arr
+  private val suppliers: List<FeedSupplier> = ArrayList()
+) : FeedConsumer
