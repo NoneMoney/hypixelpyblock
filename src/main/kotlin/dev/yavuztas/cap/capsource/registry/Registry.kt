@@ -25,4 +25,6 @@ class Registry(
   private val props: RegistryProperties,
   private val vertx: Vertx,
   private val suppliers: List<FeedSupplier> = ArrayList()
-) : FeedConsumer
+) : FeedConsumer {
+
+  private val log = Kotl
