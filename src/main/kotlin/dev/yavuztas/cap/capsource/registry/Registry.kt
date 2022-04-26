@@ -27,4 +27,5 @@ class Registry(
   private val suppliers: List<FeedSupplier> = ArrayList()
 ) : FeedConsumer {
 
-  private val log = Kotl
+  private val log = KotlinLogging.logger {}
+  private val clien
