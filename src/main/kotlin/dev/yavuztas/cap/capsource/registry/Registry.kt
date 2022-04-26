@@ -28,4 +28,4 @@ class Registry(
 ) : FeedConsumer {
 
   private val log = KotlinLogging.logger {}
-  private val clien
+  private val clients: MutableMap<NetSocket, RegistryC
