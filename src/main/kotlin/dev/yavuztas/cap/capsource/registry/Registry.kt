@@ -28,4 +28,6 @@ class Registry(
 ) : FeedConsumer {
 
   private val log = KotlinLogging.logger {}
-  private val clients: MutableMap<NetSocket, RegistryC
+  private val clients: MutableMap<NetSocket, RegistryClient> = ConcurrentHashMap()
+
+  
