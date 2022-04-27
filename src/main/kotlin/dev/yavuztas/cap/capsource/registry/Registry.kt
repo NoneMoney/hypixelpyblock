@@ -30,4 +30,5 @@ class Registry(
   private val log = KotlinLogging.logger {}
   private val clients: MutableMap<NetSocket, RegistryClient> = ConcurrentHashMap()
 
-  inner class TcpServer
+  inner class TcpServer(
+    private val 
