@@ -31,4 +31,4 @@ class Registry(
   private val clients: MutableMap<NetSocket, RegistryClient> = ConcurrentHashMap()
 
   inner class TcpServer(
-    private val 
+    private val options: NetServerO
