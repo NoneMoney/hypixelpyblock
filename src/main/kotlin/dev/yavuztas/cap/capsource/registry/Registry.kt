@@ -31,4 +31,5 @@ class Registry(
   private val clients: MutableMap<NetSocket, RegistryClient> = ConcurrentHashMap()
 
   inner class TcpServer(
-    private val options: NetServerO
+    private val options: NetServerOptions
+  ) : AbstractVerticle() {
