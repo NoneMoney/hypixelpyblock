@@ -36,4 +36,5 @@ class Registry(
 
     private lateinit var server: NetServer
 
-   
+    override fun start() {
+    
