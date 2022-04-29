@@ -33,3 +33,5 @@ class Registry(
   inner class TcpServer(
     private val options: NetServerOptions
   ) : AbstractVerticle() {
+
+    private lateinit var
