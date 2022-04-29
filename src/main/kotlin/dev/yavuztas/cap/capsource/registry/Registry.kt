@@ -34,4 +34,6 @@ class Registry(
     private val options: NetServerOptions
   ) : AbstractVerticle() {
 
-    private lateinit var
+    private lateinit var server: NetServer
+
+   
