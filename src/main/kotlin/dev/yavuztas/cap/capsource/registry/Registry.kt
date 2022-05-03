@@ -38,4 +38,5 @@ class Registry(
 
     override fun start() {
       server = vertx.createNetServer(options)
-        .connectHan
+        .connectHandler(this::onConnect)
+      server.liste
