@@ -37,4 +37,5 @@ class Registry(
     private lateinit var server: NetServer
 
     override fun start() {
-      server = vertx.createNet
+      server = vertx.createNetServer(options)
+        .connectHan
