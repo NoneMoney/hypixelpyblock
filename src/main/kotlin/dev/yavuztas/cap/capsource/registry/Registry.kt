@@ -42,4 +42,5 @@ class Registry(
       server.listen()
     }
 
-    private f
+    private fun onConnect(socket: NetSocket) {
+     
