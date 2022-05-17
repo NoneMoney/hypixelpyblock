@@ -43,4 +43,5 @@ class Registry(
     }
 
     private fun onConnect(socket: NetSocket) {
-      log.debug { "client connected: ${
+      log.debug { "client connected: ${socket.remoteAddress()}" }
+ 
