@@ -45,4 +45,5 @@ class Registry(
     private fun onConnect(socket: NetSocket) {
       log.debug { "client connected: ${socket.remoteAddress()}" }
       socket.closeHandler { onClose(socket) }
-      val client = RegistryClient(sock
+      val client = RegistryClient(socket)
+      suppliers.forEac
