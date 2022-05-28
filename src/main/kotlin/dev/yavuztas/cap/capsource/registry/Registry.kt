@@ -46,4 +46,5 @@ class Registry(
       log.debug { "client connected: ${socket.remoteAddress()}" }
       socket.closeHandler { onClose(socket) }
       val client = RegistryClient(socket)
-      suppliers.forEac
+      suppliers.forEach { client.addStream(it) }
+   
