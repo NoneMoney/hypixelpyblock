@@ -50,4 +50,5 @@ class Registry(
       clients[socket] = client
     }
 
-    private fun onClo
+    private fun onClose(socket: NetSocket) {
+      log.d
