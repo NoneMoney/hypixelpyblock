@@ -48,4 +48,6 @@ class Registry(
       val client = RegistryClient(socket)
       suppliers.forEach { client.addStream(it) }
       clients[socket] = client
- 
+    }
+
+    private fun onClo
