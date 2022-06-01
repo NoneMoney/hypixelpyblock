@@ -51,4 +51,4 @@ class Registry(
     }
 
     private fun onClose(socket: NetSocket) {
-      log.d
+      log.debug { "client disconne
