@@ -52,4 +52,8 @@ class Registry(
 
     private fun onClose(socket: NetSocket) {
       log.debug { "client disconnected: ${socket.remoteAddress()}" }
-      clients.remo
+      clients.remove(socket)
+    }
+
+  }
+
