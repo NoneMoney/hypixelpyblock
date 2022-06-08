@@ -57,3 +57,4 @@ class Registry(
 
   }
 
+  override fun consume(sup
