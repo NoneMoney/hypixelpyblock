@@ -57,4 +57,5 @@ class Registry(
 
   }
 
-  override fun consume(sup
+  override fun consume(supplier: FeedSupplier) {
+    /
