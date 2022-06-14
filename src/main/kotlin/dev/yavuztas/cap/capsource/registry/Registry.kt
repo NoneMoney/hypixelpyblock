@@ -58,4 +58,4 @@ class Registry(
   }
 
   override fun consume(supplier: FeedSupplier) {
-    // consume in vertx event pool,
+    // consume in vertx event pool, each client can consume concur
