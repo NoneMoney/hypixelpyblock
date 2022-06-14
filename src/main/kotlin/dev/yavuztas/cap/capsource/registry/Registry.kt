@@ -59,4 +59,7 @@ class Registry(
 
   override fun consume(supplier: FeedSupplier) {
     // consume in vertx event pool, each client can consume concurrently
-    clients.forEach { it.va
+    clients.forEach { it.value.read() }
+  }
+
+  @PostCo
