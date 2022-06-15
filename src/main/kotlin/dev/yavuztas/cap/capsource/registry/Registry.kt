@@ -62,4 +62,5 @@ class Registry(
     clients.forEach { it.value.read() }
   }
 
-  @PostCo
+  @PostConstruct
+  fun init(): Future
