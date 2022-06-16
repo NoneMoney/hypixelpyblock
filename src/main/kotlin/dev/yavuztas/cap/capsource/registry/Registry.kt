@@ -65,4 +65,5 @@ class Registry(
   @PostConstruct
   fun init(): Future<String> {
 
-    val options = NetSer
+    val options = NetServerOptions()
+      .setHost(pro
