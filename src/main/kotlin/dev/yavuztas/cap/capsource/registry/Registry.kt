@@ -63,4 +63,6 @@ class Registry(
   }
 
   @PostConstruct
-  fun init(): Future
+  fun init(): Future<String> {
+
+    val options = NetSer
