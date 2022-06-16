@@ -66,4 +66,4 @@ class Registry(
   fun init(): Future<String> {
 
     val options = NetServerOptions()
-      .setHost(pro
+      .setHost(props.host).setPort(props.port
