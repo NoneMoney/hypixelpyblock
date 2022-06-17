@@ -68,4 +68,5 @@ class Registry(
     val options = NetServerOptions()
       .setHost(props.host).setPort(props.port)
 
-    return vertx.deployVerticle
+    return vertx.deployVerticle(
+      { TcpServer(options) }, D
