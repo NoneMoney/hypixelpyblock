@@ -66,4 +66,6 @@ class Registry(
   fun init(): Future<String> {
 
     val options = NetServerOptions()
-      .setHost(props.host).setPort(props.port
+      .setHost(props.host).setPort(props.port)
+
+    return vertx.deployVerticle
