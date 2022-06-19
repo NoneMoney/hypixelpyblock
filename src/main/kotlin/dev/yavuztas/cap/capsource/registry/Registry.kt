@@ -69,4 +69,4 @@ class Registry(
       .setHost(props.host).setPort(props.port)
 
     return vertx.deployVerticle(
-      { TcpServer(options) }, D
+      { TcpServer(options) }, DeploymentOptions().setInstances(prop
