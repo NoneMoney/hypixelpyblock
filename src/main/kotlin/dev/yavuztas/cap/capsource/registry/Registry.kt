@@ -70,4 +70,5 @@ class Registry(
 
     return vertx.deployVerticle(
       { TcpServer(options) }, DeploymentOptions().setInstances(props.tcpServerThreadPool)
-    ).o
+    ).onSuccess {
+      log.info 
