@@ -71,4 +71,5 @@ class Registry(
     return vertx.deployVerticle(
       { TcpServer(options) }, DeploymentOptions().setInstances(props.tcpServerThreadPool)
     ).onSuccess {
-      log.info { "Registry server started on 
+      log.info { "Registry server started on ${options.port}" }
+      // c
