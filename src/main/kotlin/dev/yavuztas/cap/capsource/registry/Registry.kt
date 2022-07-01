@@ -72,4 +72,4 @@ class Registry(
       { TcpServer(options) }, DeploymentOptions().setInstances(props.tcpServerThreadPool)
     ).onSuccess {
       log.info { "Registry server started on ${options.port}" }
-      // c
+      // create and start consuming for ea
