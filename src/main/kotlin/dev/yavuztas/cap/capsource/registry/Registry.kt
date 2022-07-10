@@ -75,4 +75,4 @@ class Registry(
       // create and start consuming for each supplier
       suppliers.forEach { it.addConsumer(this) }
     }.onFailure { e ->
-      log.error("Registry s
+      log.error("Registry server start-up failed host: ${o
