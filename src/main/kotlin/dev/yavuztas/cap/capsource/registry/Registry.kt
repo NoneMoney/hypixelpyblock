@@ -73,4 +73,5 @@ class Registry(
     ).onSuccess {
       log.info { "Registry server started on ${options.port}" }
       // create and start consuming for each supplier
-      suppliers.forEach { it.addConsumer(
+      suppliers.forEach { it.addConsumer(this) }
+    }.onFailure { e ->
