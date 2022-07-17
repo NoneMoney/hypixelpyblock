@@ -75,4 +75,9 @@ class Registry(
       // create and start consuming for each supplier
       suppliers.forEach { it.addConsumer(this) }
     }.onFailure { e ->
-      log.error("Registry server start-up failed host: ${options.host}, port: ${option
+      log.error("Registry server start-up failed host: ${options.host}, port: ${options.port}", e)
+    }
+  }
+
+  @PreDestroy
+  fu
