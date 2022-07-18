@@ -81,4 +81,7 @@ class Registry(
 
   @PreDestroy
   fun destroy() {
-    ver
+    vertx.close()
+  }
+
+}
