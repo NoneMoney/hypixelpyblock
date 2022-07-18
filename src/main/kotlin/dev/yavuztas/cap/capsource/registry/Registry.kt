@@ -80,4 +80,5 @@ class Registry(
   }
 
   @PreDestroy
-  fu
+  fun destroy() {
+    ver
