@@ -5,4 +5,4 @@ import dev.yavuztas.cap.capsource.feed.FeedDataStream
 import io.vertx.core.net.NetSocket
 import mu.KotlinLogging
 
-class Registr
+class RegistryClient (private val socket: Ne
