@@ -8,4 +8,4 @@ import mu.KotlinLogging
 class RegistryClient (private val socket: NetSocket) {
 
   private val log = KotlinLogging.logger {}
-  pri
+  private val streams: MutableLis
