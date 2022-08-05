@@ -9,3 +9,5 @@ class RegistryClient (private val socket: NetSocket) {
 
   private val log = KotlinLogging.logger {}
   private val streams: MutableList<FeedDataStream> = ArrayList()
+
+  fun addStream(supplier: FeedSu
