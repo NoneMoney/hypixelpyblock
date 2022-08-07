@@ -11,4 +11,8 @@ class RegistryClient (private val socket: NetSocket) {
   private val streams: MutableList<FeedDataStream> = ArrayList()
 
   fun addStream(supplier: FeedSupplier) {
-    this.streams.add(Fe
+    this.streams.add(FeedDataStream(supplier))
+  }
+
+  /**
+   
