@@ -15,4 +15,5 @@ class RegistryClient (private val socket: NetSocket) {
   }
 
   /**
-   * Using this method in a single thre
+   * Using this method in a single thread is alright.
+   * Because actua
