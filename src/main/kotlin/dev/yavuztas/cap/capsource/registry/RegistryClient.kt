@@ -15,4 +15,4 @@ class RegistryClient (private val socket: NetSocket) {
   }
 
   /**
-   
+   * Using this method in a single thre
