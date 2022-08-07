@@ -16,4 +16,4 @@ class RegistryClient (private val socket: NetSocket) {
 
   /**
    * Using this method in a single thread is alright.
-   * Because actua
+   * Because actual write happens asynchrono
