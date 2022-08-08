@@ -16,4 +16,5 @@ class RegistryClient (private val socket: NetSocket) {
 
   /**
    * Using this method in a single thread is alright.
-   * Because actual write happens asynchronously by a thread in vertx even
+   * Because actual write happens asynchronously by a thread in vertx event loop.
+   * See: ConnectionBase.que
