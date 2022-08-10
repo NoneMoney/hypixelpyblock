@@ -19,4 +19,6 @@ class RegistryClient (private val socket: NetSocket) {
    * Because actual write happens asynchronously by a thread in vertx event loop.
    * See: ConnectionBase.queueForWrite line 245.
    */
-  fun read
+  fun read() {
+    streams.forEach {
+     
