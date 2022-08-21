@@ -21,4 +21,5 @@ class RegistryClient (private val socket: NetSocket) {
    */
   fun read() {
     streams.forEach {
-      log.debug { "<read> client: ${socket.remoteAddress()}, readIndex: ${it.readIndex()}, writeIndex: ${it.supplier(
+      log.debug { "<read> client: ${socket.remoteAddress()}, readIndex: ${it.readIndex()}, writeIndex: ${it.supplier().writeIndex()}" }
+     
