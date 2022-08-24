@@ -23,4 +23,7 @@ class RegistryClient (private val socket: NetSocket) {
     streams.forEach {
       log.debug { "<read> client: ${socket.remoteAddress()}, readIndex: ${it.readIndex()}, writeIndex: ${it.supplier().writeIndex()}" }
       it.pipeTo(socket) // actual write is asynchronous
-   
+    }
+  }
+
+}
