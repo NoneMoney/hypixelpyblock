@@ -12,3 +12,31 @@ spring:
   main:
     banner-mode: off
   application:
+    name: cap-source
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include:
+          - health
+          - info
+          - prometheus
+  metrics:
+    tags:
+      app: ${spring.application.name}
+
+app:
+  vertx:
+    event-loop-pool-size: 8
+  registry:
+    host: localhost
+    port: 7000
+    tcp_server_thread_pool: 4
+
+source:
+  binance:
