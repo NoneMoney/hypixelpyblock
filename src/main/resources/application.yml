@@ -40,3 +40,5 @@ app:
 
 source:
   binance:
+    buffer-size: 1024
+    symbols: btcusdt,ethusdt
