@@ -1,0 +1,14 @@
+
+logging:
+  config: "classpath:logback-spring.xml"
+  level:
+    root: info
+server:
+  tomcat:
+    threads:
+      min-spare: 5
+      max: 20
+spring:
+  main:
+    banner-mode: off
+  application:

@@ -63,3 +63,12 @@ class RingBuffer<T>(bufferSize: Int) {
 
   fun forEachRemaining(readIndex: Long, action: Consumer<T>): Long {
     return forEach(readIndex, this.writeIndex.get() - readIndex, action)
+  }
+
+  private fun relativeIndex(index: Long): Int {
+    // this is faster than % operator but limited to the size of power of 2
+    return (index and moduloBitMask).toInt()
+  }
+
+
+}
