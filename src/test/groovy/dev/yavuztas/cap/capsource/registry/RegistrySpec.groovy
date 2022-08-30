@@ -1,3 +1,4 @@
 package dev.yavuztas.cap.capsource.registry
 
-import dev.yavuztas.cap.capsource.config.properties.RegistryProperti
+import dev.yavuztas.cap.capsource.config.properties.RegistryProperties
+import dev.yavuztas.cap.ca
