@@ -23,4 +23,6 @@ import java.util.concurrent.atomic.AtomicLong
 import java.util.function.BiConsumer
 import java.util.function.Consumer
 
-class RegistrySp
+class RegistrySpec extends Specification {
+
+  sta
