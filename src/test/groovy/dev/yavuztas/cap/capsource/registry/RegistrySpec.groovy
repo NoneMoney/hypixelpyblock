@@ -25,4 +25,4 @@ import java.util.function.Consumer
 
 class RegistrySpec extends Specification {
 
-  sta
+  static Logger log = LoggerFact
