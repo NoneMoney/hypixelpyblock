@@ -30,3 +30,4 @@ class RegistrySpec extends Specification {
   Vertx vertx
   Vertx clientVertx
   Registry registry
+  ScheduledExecutorService write
