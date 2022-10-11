@@ -25,4 +25,7 @@ import java.util.function.Consumer
 
 class RegistrySpec extends Specification {
 
-  static Logger log = LoggerFactory.getLogger(RegistrySpec
+  static Logger log = LoggerFactory.getLogger(RegistrySpec)
+
+  Vertx vertx
+  Vertx clien
