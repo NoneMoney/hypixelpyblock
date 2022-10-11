@@ -28,4 +28,5 @@ class RegistrySpec extends Specification {
   static Logger log = LoggerFactory.getLogger(RegistrySpec)
 
   Vertx vertx
-  Vertx clien
+  Vertx clientVertx
+  Registry registry
