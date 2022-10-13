@@ -33,4 +33,4 @@ class RegistrySpec extends Specification {
   ScheduledExecutorService writeThread
 
   def setup() {
-    writeT
+    writeThread = Executors.newScheduled
