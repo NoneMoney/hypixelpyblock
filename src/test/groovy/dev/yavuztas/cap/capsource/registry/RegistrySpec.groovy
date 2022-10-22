@@ -36,4 +36,4 @@ class RegistrySpec extends Specification {
     writeThread = Executors.newScheduledThreadPool(1, r -> new Thread(r, "write-thread"))
     clientVertx = Vertx.vertx(new VertxOptions().setEventLoopPoolSize(1))
     vertx = Vertx.vertx(new VertxOptions().setEventLoopPoolSize(8))
-    def pro
+    def props = new RegistryProperties('lo
