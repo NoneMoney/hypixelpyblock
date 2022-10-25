@@ -37,4 +37,6 @@ class RegistrySpec extends Specification {
     clientVertx = Vertx.vertx(new VertxOptions().setEventLoopPoolSize(1))
     vertx = Vertx.vertx(new VertxOptions().setEventLoopPoolSize(8))
     def props = new RegistryProperties('localhost', 7000, 4)
-    def mockSup
+    def mockSupplier = new FeedSupplier() {
+
+   
