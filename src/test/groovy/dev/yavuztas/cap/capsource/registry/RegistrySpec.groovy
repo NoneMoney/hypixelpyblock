@@ -39,4 +39,4 @@ class RegistrySpec extends Specification {
     def props = new RegistryProperties('localhost', 7000, 4)
     def mockSupplier = new FeedSupplier() {
 
-   
+      AtomicLong writeIndex = new Atomi
