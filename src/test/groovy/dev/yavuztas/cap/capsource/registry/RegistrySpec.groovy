@@ -42,3 +42,4 @@ class RegistrySpec extends Specification {
       AtomicLong writeIndex = new AtomicLong(1L)
 
       @Override
+      void addConsumer(@NotNu
