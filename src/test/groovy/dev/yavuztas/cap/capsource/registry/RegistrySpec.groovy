@@ -44,4 +44,4 @@ class RegistrySpec extends Specification {
       @Override
       void addConsumer(@NotNull FeedConsumer consumer) {
         // consume periodic
-       
+        writeThread.scheduleAtFixedRat
