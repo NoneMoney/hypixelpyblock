@@ -42,4 +42,6 @@ class RegistrySpec extends Specification {
       AtomicLong writeIndex = new AtomicLong(1L)
 
       @Override
-      void addConsumer(@NotNull FeedConsumer consumer) 
+      void addConsumer(@NotNull FeedConsumer consumer) {
+        // consume periodic
+       
