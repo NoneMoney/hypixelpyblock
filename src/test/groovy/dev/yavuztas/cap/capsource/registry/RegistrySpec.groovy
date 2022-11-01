@@ -45,4 +45,7 @@ class RegistrySpec extends Specification {
       void addConsumer(@NotNull FeedConsumer consumer) {
         // consume periodic
         writeThread.scheduleAtFixedRate({ consumer.consume(this) }, 0, 200, TimeUnit.MILLISECONDS)
-   
+      }
+
+      @Override
+     
