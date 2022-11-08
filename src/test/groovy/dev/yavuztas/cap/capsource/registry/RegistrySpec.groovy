@@ -52,4 +52,5 @@ class RegistrySpec extends Specification {
         return writeIndex.get()
       }
 
-   
+      @Override
+      FeedData get(
