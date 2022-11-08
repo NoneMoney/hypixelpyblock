@@ -48,4 +48,5 @@ class RegistrySpec extends Specification {
       }
 
       @Override
-     
+      long writeIndex() {
+        return write
