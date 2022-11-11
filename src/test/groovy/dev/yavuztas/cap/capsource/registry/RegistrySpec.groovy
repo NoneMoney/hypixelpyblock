@@ -53,4 +53,5 @@ class RegistrySpec extends Specification {
       }
 
       @Override
-      FeedData get(
+      FeedData get(long readIndex) {
+        return n
