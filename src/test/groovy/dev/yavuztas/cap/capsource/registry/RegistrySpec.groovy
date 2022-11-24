@@ -58,4 +58,4 @@ class RegistrySpec extends Specification {
       }
 
       @Override
-      long 
+      long forEach(long readIndex
