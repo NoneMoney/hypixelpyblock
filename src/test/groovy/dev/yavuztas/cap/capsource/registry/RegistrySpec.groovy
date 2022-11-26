@@ -59,4 +59,4 @@ class RegistrySpec extends Specification {
 
       @Override
       long forEach(long readIndex, long amount, @NotNull Consumer<FeedData> action) {
-       
+        long to = Math.min(writeIn
