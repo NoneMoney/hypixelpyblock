@@ -61,4 +61,5 @@ class RegistrySpec extends Specification {
       long forEach(long readIndex, long amount, @NotNull Consumer<FeedData> action) {
         long to = Math.min(writeIndex.get(), amount)
         readIndex = readIndex < 0 ? 0 : readIndex
-        (to - readIndex).times 
+        (to - readIndex).times {
+          action.accep
