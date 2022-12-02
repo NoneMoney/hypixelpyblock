@@ -62,4 +62,6 @@ class RegistrySpec extends Specification {
         long to = Math.min(writeIndex.get(), amount)
         readIndex = readIndex < 0 ? 0 : readIndex
         (to - readIndex).times {
-          action.accept(new RawFeedData("message-${write
+          action.accept(new RawFeedData("message-${writeIndex.get()}"))
+        }
+       
