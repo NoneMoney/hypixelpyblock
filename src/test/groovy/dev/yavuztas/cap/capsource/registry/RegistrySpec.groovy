@@ -69,4 +69,4 @@ class RegistrySpec extends Specification {
       }
 
       @Override
-      long 
+      long forEachRemaining(long 
