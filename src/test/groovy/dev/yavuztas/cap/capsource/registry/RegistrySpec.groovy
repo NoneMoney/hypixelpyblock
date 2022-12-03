@@ -67,3 +67,6 @@ class RegistrySpec extends Specification {
         writeIndex.incrementAndGet()
         return to
       }
+
+      @Override
+      long 
