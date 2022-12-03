@@ -64,4 +64,5 @@ class RegistrySpec extends Specification {
         (to - readIndex).times {
           action.accept(new RawFeedData("message-${writeIndex.get()}"))
         }
-       
+        writeIndex.incrementAndGet()
+ 
