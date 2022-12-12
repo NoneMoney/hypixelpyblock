@@ -70,4 +70,7 @@ class RegistrySpec extends Specification {
 
       @Override
       long forEachRemaining(long readIndex, @NotNull Consumer<FeedData> action) {
-        re
+        return 0
+      }
+    }
+    registry
