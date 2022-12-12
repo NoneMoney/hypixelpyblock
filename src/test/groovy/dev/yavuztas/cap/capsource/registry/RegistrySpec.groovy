@@ -73,4 +73,4 @@ class RegistrySpec extends Specification {
         return 0
       }
     }
-    registry
+    registry = new Registry(props, ve
