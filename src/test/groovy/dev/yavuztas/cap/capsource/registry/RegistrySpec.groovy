@@ -73,4 +73,6 @@ class RegistrySpec extends Specification {
         return 0
       }
     }
-    registry = new Registry(props, ve
+    registry = new Registry(props, vertx, [mockSupplier])
+
+    def a
