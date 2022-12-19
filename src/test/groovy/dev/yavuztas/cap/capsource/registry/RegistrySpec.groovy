@@ -75,4 +75,5 @@ class RegistrySpec extends Specification {
     }
     registry = new Registry(props, vertx, [mockSupplier])
 
-    def a
+    def ac = new AsyncConditions(1)
+   
