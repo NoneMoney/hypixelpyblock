@@ -76,4 +76,5 @@ class RegistrySpec extends Specification {
     registry = new Registry(props, vertx, [mockSupplier])
 
     def ac = new AsyncConditions(1)
-   
+    def future = registry.init()
+    fu
