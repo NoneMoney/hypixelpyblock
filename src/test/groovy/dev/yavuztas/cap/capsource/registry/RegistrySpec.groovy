@@ -78,4 +78,4 @@ class RegistrySpec extends Specification {
     def ac = new AsyncConditions(1)
     def future = registry.init()
     future.onComplete(r -> {
-    
+      ac.evaluate { assert r.
