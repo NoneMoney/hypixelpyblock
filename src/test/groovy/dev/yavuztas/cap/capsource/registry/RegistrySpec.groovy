@@ -80,4 +80,8 @@ class RegistrySpec extends Specification {
     future.onComplete(r -> {
       ac.evaluate { assert r.succeeded() }
     })
-    ac.awa
+    ac.await()
+  }
+
+  def cleanup() {
+ 
