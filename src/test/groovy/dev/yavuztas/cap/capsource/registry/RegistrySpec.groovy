@@ -84,4 +84,4 @@ class RegistrySpec extends Specification {
   }
 
   def cleanup() {
- 
+    registry.destroy()
