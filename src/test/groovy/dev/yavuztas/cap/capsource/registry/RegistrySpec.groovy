@@ -86,4 +86,7 @@ class RegistrySpec extends Specification {
   def cleanup() {
     registry.destroy()
     writeThread.shutdown()
-    clientVert
+    clientVertx.close()
+  }
+
+  NetSocket cre
