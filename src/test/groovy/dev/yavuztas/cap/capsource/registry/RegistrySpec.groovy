@@ -89,4 +89,5 @@ class RegistrySpec extends Specification {
     clientVertx.close()
   }
 
-  NetSocket createClient(BiConsumer<NetSocket,
+  NetSocket createClient(BiConsumer<NetSocket, String> onMessage) {
+    def
