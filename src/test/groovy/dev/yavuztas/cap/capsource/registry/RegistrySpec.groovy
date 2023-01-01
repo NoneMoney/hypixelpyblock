@@ -90,4 +90,5 @@ class RegistrySpec extends Specification {
   }
 
   NetSocket createClient(BiConsumer<NetSocket, String> onMessage) {
-    def
+    def ac = new AsyncConditions(1)
+    Net
