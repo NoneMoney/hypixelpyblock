@@ -92,4 +92,5 @@ class RegistrySpec extends Specification {
   NetSocket createClient(BiConsumer<NetSocket, String> onMessage) {
     def ac = new AsyncConditions(1)
     NetSocket socket = null
-    def client = clientVertx.creat
+    def client = clientVertx.createNetClient()
+    cli
