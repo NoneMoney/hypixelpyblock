@@ -93,4 +93,4 @@ class RegistrySpec extends Specification {
     def ac = new AsyncConditions(1)
     NetSocket socket = null
     def client = clientVertx.createNetClient()
-    cli
+    client.connect(7000, "localhost", 
