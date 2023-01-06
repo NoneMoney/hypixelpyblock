@@ -95,4 +95,5 @@ class RegistrySpec extends Specification {
     def client = clientVertx.createNetClient()
     client.connect(7000, "localhost", r -> {
       if (r.succeeded()) {
-        socket = r.resu
+        socket = r.result()
+        ac.evaluate { assert 
