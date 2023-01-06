@@ -96,4 +96,6 @@ class RegistrySpec extends Specification {
     client.connect(7000, "localhost", r -> {
       if (r.succeeded()) {
         socket = r.result()
-        ac.evaluate { assert 
+        ac.evaluate { assert true }
+      } else {
+        log.
