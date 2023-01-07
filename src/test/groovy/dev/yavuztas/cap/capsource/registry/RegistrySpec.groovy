@@ -98,4 +98,5 @@ class RegistrySpec extends Specification {
         socket = r.result()
         ac.evaluate { assert true }
       } else {
-        log.info("Failed to connect: ${
+        log.info("Failed to connect: ${r.cause().getMessage()}")
+      
