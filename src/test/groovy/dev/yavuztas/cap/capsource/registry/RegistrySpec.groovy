@@ -103,4 +103,4 @@ class RegistrySpec extends Specification {
     })
     ac.await()
 
-  
+    socket.handler(buffer
