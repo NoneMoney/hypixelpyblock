@@ -99,4 +99,8 @@ class RegistrySpec extends Specification {
         ac.evaluate { assert true }
       } else {
         log.info("Failed to connect: ${r.cause().getMessage()}")
-      
+      }
+    })
+    ac.await()
+
+  
