@@ -104,4 +104,6 @@ class RegistrySpec extends Specification {
     ac.await()
 
     socket.handler(buffer -> {
-      // consume buff
+      // consume buffer
+      int pos = 0
+  
