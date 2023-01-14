@@ -106,4 +106,5 @@ class RegistrySpec extends Specification {
     socket.handler(buffer -> {
       // consume buffer
       int pos = 0
-      while (pos < buf
+      while (pos < buffer.length()) {
+        def message
