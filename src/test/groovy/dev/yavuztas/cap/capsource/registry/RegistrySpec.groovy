@@ -109,4 +109,4 @@ class RegistrySpec extends Specification {
       while (pos < buffer.length()) {
         def messageSize = buffer.getUnsignedShort(pos)
         pos += 2
-        def m
+        def message = buffer.getString(p
