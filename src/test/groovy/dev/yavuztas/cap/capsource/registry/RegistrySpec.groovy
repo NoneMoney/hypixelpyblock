@@ -111,4 +111,5 @@ class RegistrySpec extends Specification {
         pos += 2
         def message = buffer.getString(pos, pos + messageSize, StandardCharsets.US_ASCII.name())
         pos += messageSize
-        // delegate to consum
+        // delegate to consumer
+        onMessage.accept(socket,
