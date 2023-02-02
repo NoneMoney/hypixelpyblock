@@ -110,4 +110,5 @@ class RegistrySpec extends Specification {
         def messageSize = buffer.getUnsignedShort(pos)
         pos += 2
         def message = buffer.getString(pos, pos + messageSize, StandardCharsets.US_ASCII.name())
-        pos += messageSiz
+        pos += messageSize
+        // delegate to consum
