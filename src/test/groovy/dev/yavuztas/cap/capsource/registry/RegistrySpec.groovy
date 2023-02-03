@@ -116,4 +116,7 @@ class RegistrySpec extends Specification {
       }
     })
 
-    retur
+    return socket
+  }
+
+  def 'test connect clien
