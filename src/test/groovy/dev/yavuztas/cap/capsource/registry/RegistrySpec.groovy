@@ -119,4 +119,6 @@ class RegistrySpec extends Specification {
     return socket
   }
 
-  def 'test connect clien
+  def 'test connect clients'() {
+    when:
+   
