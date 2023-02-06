@@ -121,4 +121,4 @@ class RegistrySpec extends Specification {
 
   def 'test connect clients'() {
     when:
-   
+    def ac = new AsyncCondition
