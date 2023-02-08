@@ -124,4 +124,4 @@ class RegistrySpec extends Specification {
     def ac = new AsyncConditions(10)
     def clients = []
     for (i in 0..<2) {
-  
+      clients.add(createClient((s,m) -
