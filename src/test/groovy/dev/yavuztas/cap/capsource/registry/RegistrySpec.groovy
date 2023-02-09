@@ -126,3 +126,4 @@ class RegistrySpec extends Specification {
     for (i in 0..<2) {
       clients.add(createClient((s,m) -> {
         log.info("client#${s.localAddress()} got message: ${m}")
+        ac.evaluate { asse
