@@ -125,4 +125,4 @@ class RegistrySpec extends Specification {
     def clients = []
     for (i in 0..<2) {
       clients.add(createClient((s,m) -> {
-        log.info("client#${s
+        log.info("client#${s.localAddress()} got message: ${m}")
