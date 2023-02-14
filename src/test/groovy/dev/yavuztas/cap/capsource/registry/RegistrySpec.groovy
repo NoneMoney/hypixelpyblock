@@ -131,3 +131,7 @@ class RegistrySpec extends Specification {
     }
 
     then:
+    ac.await(5)
+
+    cleanup:
+    clients.ea
