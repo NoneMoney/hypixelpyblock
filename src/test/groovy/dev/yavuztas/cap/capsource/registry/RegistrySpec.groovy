@@ -134,4 +134,4 @@ class RegistrySpec extends Specification {
     ac.await(5)
 
     cleanup:
-    clients.ea
+    clients.each { (it as NetSocket).close
