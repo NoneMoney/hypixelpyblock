@@ -134,4 +134,7 @@ class RegistrySpec extends Specification {
     ac.await(5)
 
     cleanup:
-    clients.each { (it as NetSocket).close
+    clients.each { (it as NetSocket).close() }
+  }
+
+  def 'test client messa
