@@ -137,4 +137,5 @@ class RegistrySpec extends Specification {
     clients.each { (it as NetSocket).close() }
   }
 
-  def 'test client messa
+  def 'test client message consume order'() {
+    given:
