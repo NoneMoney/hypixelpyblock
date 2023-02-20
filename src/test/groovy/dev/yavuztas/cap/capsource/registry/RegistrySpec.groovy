@@ -141,4 +141,5 @@ class RegistrySpec extends Specification {
     given:
     def order = new AtomicInteger(0)
     when:
-    def ac 
+    def ac = new AsyncConditions(10)
+    d
