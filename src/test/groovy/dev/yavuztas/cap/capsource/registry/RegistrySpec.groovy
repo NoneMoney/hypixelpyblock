@@ -139,4 +139,6 @@ class RegistrySpec extends Specification {
 
   def 'test client message consume order'() {
     given:
-    def order = new AtomicInteger(0
+    def order = new AtomicInteger(0)
+    when:
+    def ac 
