@@ -142,4 +142,4 @@ class RegistrySpec extends Specification {
     def order = new AtomicInteger(0)
     when:
     def ac = new AsyncConditions(10)
-    d
+    def client = createClient((s,m) -> {
