@@ -143,4 +143,4 @@ class RegistrySpec extends Specification {
     when:
     def ac = new AsyncConditions(10)
     def client = createClient((s,m) -> {
-      log.info("client#${s.lo
+      log.info("client#${s.localAddress()} got message: ${
