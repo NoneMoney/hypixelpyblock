@@ -144,4 +144,5 @@ class RegistrySpec extends Specification {
     def ac = new AsyncConditions(10)
     def client = createClient((s,m) -> {
       log.info("client#${s.localAddress()} got message: ${m}")
-      def next = Integer.
+      def next = Integer.parseInt(m.split("-")[1])
+      if
