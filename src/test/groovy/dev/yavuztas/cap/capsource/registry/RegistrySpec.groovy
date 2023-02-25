@@ -145,4 +145,5 @@ class RegistrySpec extends Specification {
     def client = createClient((s,m) -> {
       log.info("client#${s.localAddress()} got message: ${m}")
       def next = Integer.parseInt(m.split("-")[1])
-      if (next - order.getAndSet(n
+      if (next - order.getAndSet(next) > 1) {
+       
