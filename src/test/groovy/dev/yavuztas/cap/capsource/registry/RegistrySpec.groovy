@@ -148,4 +148,4 @@ class RegistrySpec extends Specification {
       if (next - order.getAndSet(next) > 1) {
         throw new IllegalStateException("Client recieved message is not in order")
       }
-      ac
+      ac.evaluate { assert tr
