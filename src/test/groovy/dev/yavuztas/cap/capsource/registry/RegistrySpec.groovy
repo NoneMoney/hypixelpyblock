@@ -146,4 +146,6 @@ class RegistrySpec extends Specification {
       log.info("client#${s.localAddress()} got message: ${m}")
       def next = Integer.parseInt(m.split("-")[1])
       if (next - order.getAndSet(next) > 1) {
-        throw new IllegalStateException("Client recieved message i
+        throw new IllegalStateException("Client recieved message is not in order")
+      }
+      ac
