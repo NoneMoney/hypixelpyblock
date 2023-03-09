@@ -155,4 +155,5 @@ class RegistrySpec extends Specification {
     ac.await(5)
     noExceptionThrown()
 
-    cl
+    cleanup:
+    client.close
