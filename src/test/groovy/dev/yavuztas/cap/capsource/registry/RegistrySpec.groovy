@@ -153,4 +153,6 @@ class RegistrySpec extends Specification {
 
     then:
     ac.await(5)
-  
+    noExceptionThrown()
+
+    cl
