@@ -156,4 +156,7 @@ class RegistrySpec extends Specification {
     noExceptionThrown()
 
     cleanup:
-    client.close
+    client.close()
+  }
+
+  def 'test slow cli
