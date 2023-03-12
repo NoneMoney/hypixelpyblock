@@ -159,4 +159,6 @@ class RegistrySpec extends Specification {
     client.close()
   }
 
-  def 'test slow cli
+  def 'test slow client'() {
+    when:
+    def
