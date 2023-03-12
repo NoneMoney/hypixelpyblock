@@ -161,4 +161,4 @@ class RegistrySpec extends Specification {
 
   def 'test slow client'() {
     when:
-    def
+    def clientReadIndex = new AtomicL
