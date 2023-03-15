@@ -162,4 +162,5 @@ class RegistrySpec extends Specification {
   def 'test slow client'() {
     when:
     def clientReadIndex = new AtomicLong(0)
-    def ac = new AsyncCo
+    def ac = new AsyncConditions(5)
+    def client = c
