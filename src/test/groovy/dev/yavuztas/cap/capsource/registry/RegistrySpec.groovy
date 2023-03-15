@@ -163,4 +163,5 @@ class RegistrySpec extends Specification {
     when:
     def clientReadIndex = new AtomicLong(0)
     def ac = new AsyncConditions(5)
-    def client = c
+    def client = createClient((s,m) -> {
+      
