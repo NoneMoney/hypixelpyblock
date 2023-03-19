@@ -164,4 +164,5 @@ class RegistrySpec extends Specification {
     def clientReadIndex = new AtomicLong(0)
     def ac = new AsyncConditions(5)
     def client = createClient((s,m) -> {
-      
+      Thread.sleep(1000)
+      log.
