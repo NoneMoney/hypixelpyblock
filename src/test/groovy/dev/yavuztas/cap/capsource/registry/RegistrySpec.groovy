@@ -165,4 +165,5 @@ class RegistrySpec extends Specification {
     def ac = new AsyncConditions(5)
     def client = createClient((s,m) -> {
       Thread.sleep(1000)
-      log.info("client#${s.localAddress()} readIndex: ${clientReadIndex.incrementAndGet()}, messag
+      log.info("client#${s.localAddress()} readIndex: ${clientReadIndex.incrementAndGet()}, message: ${m}")
+      ac.evaluate { asser
