@@ -170,4 +170,7 @@ class RegistrySpec extends Specification {
     })
 
     then:
-    ac
+    ac.await(15)
+
+    cleanup:
+  
