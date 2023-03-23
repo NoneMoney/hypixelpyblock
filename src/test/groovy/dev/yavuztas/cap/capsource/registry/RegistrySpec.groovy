@@ -166,4 +166,8 @@ class RegistrySpec extends Specification {
     def client = createClient((s,m) -> {
       Thread.sleep(1000)
       log.info("client#${s.localAddress()} readIndex: ${clientReadIndex.incrementAndGet()}, message: ${m}")
-      ac.evaluate { asser
+      ac.evaluate { assert true }
+    })
+
+    then:
+    ac
