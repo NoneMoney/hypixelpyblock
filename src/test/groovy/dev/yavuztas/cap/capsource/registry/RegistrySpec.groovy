@@ -173,4 +173,7 @@ class RegistrySpec extends Specification {
     ac.await(15)
 
     cleanup:
-  
+    client.close()
+  }
+
+}
